@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #0f172a;
+  --background: #f8fafc;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-4;
+}
